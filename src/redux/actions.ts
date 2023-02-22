@@ -30,7 +30,7 @@ export type ChangeCurrentCurrencyType = {
     currentCurrency:string
 };
 
-export const СhangeCurrentCurrencyAC = (currentCurrency: string): ChangeCurrentCurrencyType => ({
+export const ChangeCurrentCurrencyAC = (currentCurrency: string): ChangeCurrentCurrencyType => ({
     type: ACTIONS_TYPE.CHANGE_CURRENT_CURRENCY,
     currentCurrency
 });
